@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-adsense-account" content="ca-pub-0000000000000000">
+    <meta property="og:site_name" content="i loves pdfs">
+    <meta name="application-name" content="i loves pdfs">
+    <meta name="apple-mobile-web-app-title" content="i loves pdfs">
+    <meta name="site_name" content="i loves pdfs">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="canonical" href="https://ilovespdfs.in/merge_pdf" />
+    <meta property="og:title" content="Merge PDF Online - Combine PDF Files Free | i loves pdfs" />
+    <meta property="og:description" content="Merge PDF files online completely free. Combine multiple PDFs into a single document in any order. Quick, safe, and no registration required." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ilovespdfs.in/merge_pdf" />
+    <meta property="og:image" content="https://ilovespdfs.in/logo-branding.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Merge PDF Online - Combine PDF Files Free | i loves pdfs" />
+    <meta name="twitter:description" content="Merge PDF files online completely free. Combine multiple PDFs into a single document in any order. Quick, safe, and no registration required." />
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://ilovespdfs.in/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Merge PDF",
+                "item": "https://ilovespdfs.in/merge_pdf"
+            }
+        ]
+    }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge PDF Online - Combine PDF Files Free | i loves pdfs</title>
+    <meta name="description" content="Merge PDF files online completely free. Combine multiple PDFs into a single document in any order. Quick, safe, and no registration required.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css?v=6">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+    <script src="/ad-manager.js" defer></script>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="navbar">
+            <div class="logo-container" onclick="window.location.href='/'" id="logo-branding">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+                <div class="logo-text">i<span>loves</span>pdfs</div>
+            </div>
+            
+            <button class="menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="nav-links">
+                <li class="nav-item" onclick="window.location.href='/'">Home</li>
+                <li class="nav-item dropdown" id="dropdown-convert">
+                    Convert PDF
+                    <div class="dropdown-menu">
+                        <a href="/word_to_pdf">Word to PDF</a>
+                        <a href="/jpg_to_pdf">JPG to PDF</a>
+                        <a href="/pdf_to_word">PDF to Word</a>
+                        <a href="/pdf_to_jpg">PDF to JPG</a>
+                        <a href="/html-to-pdf">HTML to PDF</a>
+                        <a href="/extract-text">Extract Text</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown" id="dropdown-all">
+                    All Tools
+                    <div class="dropdown-menu">
+                        <a href="/merge_pdf">Merge PDF</a>
+                        <a href="/split_pdf">Split PDF</a>
+                        <a href="/compress_pdf">Compress PDF</a>
+                        <a href="/rotate_pdf">Rotate PDF</a>
+                        <a href="/protect-pdf">Protect PDF</a>
+                        <a href="/unlock_pdf">Unlock PDF</a>
+                        <a href="/pdf_add_watermark">Add Watermark</a>
+                        <a href="/add_pdf_page_number">Page Numbers</a>
+                        <a href="/organize-pdf">Organize PDF</a>
+                        <a href="/remove-pages">Delete Pages</a>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="btn btn-outline" id="nav-login-btn" onclick="window.location.href='/'">Log in</button>
+                <button class="btn btn-primary" id="nav-register-btn" onclick="window.location.href='/'">Sign up</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Workspace Container -->
+    <main>
+        <div id="workspace-container" class="workspace">
+            <div class="back-btn-container">
+                <button class="back-btn" onclick="window.location.href='/'" id="workspace-back-btn">
+                    <svg viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+                    Back to all tools
+                </button>
+            </div>
+
+            <div class="tool-header-info">
+                <h2>Merge PDF</h2>
+                <p>Combine multiple PDF documents together in any custom order.</p>
+            </div>
+
+            <!-- Error Banner -->
+            <div class="error-banner" id="error-view">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+                <span id="error-message">Something went wrong. Please check your files.</span>
+            </div>
+
+            <div class="workspace-split-container" id="tool-config-section">
+                <div class="workspace-main" style="flex: 1; width: 100%;">
+                    
+                    <!-- Initial File Dropzone -->
+                    <label for="file-selector" class="dropzone" id="file-dropzone">
+                        <div class="dropzone-icon">
+                            <svg viewBox="0 0 24 24"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z"/></svg>
+                        </div>
+                        <div class="dropzone-text">
+                            <h3>Select PDF files to merge</h3>
+                            <p>or drag and drop PDFs directly here</p>
+                        </div>
+                        <div class="dropzone-btn-primary">
+                            <svg viewBox="0 0 24 24" style="width:22px; height:22px; fill:currentColor;"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+                            Select PDF files
+                        </div>
+                        <input type="file" id="file-selector" class="file-input-hidden" accept=".pdf" multiple>
+                    </label>
+
+                    <!-- Workspace Active Area (Hidden until files added) -->
+                    <div id="active-workspace" class="hidden">
+                        
+                        <!-- Toolbar -->
+                        <div class="workspace-toolbar">
+                            <div class="workspace-summary-badge">
+                                Selected PDFs: <span id="files-count-badge">0</span>
+                                <span id="pages-count-badge" style="background:#edf2f7; color:var(--text-muted);">0 total pages</span>
+                            </div>
+                            <div class="toolbar-actions-group">
+                                <button class="btn-tool-sm btn-tool-add" id="btn-add-more">
+                                    <svg viewBox="0 0 24 24" style="width:16px; height:16px; fill:currentColor;"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+                                    Add more PDFs
+                                </button>
+                                <button class="btn-tool-sm" id="btn-sort-az" title="Sort Alphabetically">Sort A-Z</button>
+                                <button class="btn-tool-sm" id="btn-sort-za" title="Sort Reverse Alphabetically">Sort Z-A</button>
+                                <button class="btn-tool-sm" id="btn-reverse" title="Reverse Current Order">Reverse</button>
+                                <button class="btn-tool-sm" id="btn-clear-all" style="color:#e53e3e;" title="Remove All PDFs">Clear all</button>
+                            </div>
+                        </div>
+
+                        <!-- Grid Preview Cards -->
+                        <div class="pages-preview-box" id="pdf-preview-box">
+                            <div class="pages-grid-container" id="pages-grid">
+                                <!-- Cards dynamically inserted -->
+                            </div>
+                        </div>
+
+                        <!-- Big Merge PDF Action Button -->
+                        <button class="btn btn-primary" id="process-run-btn" style="width: 100%; margin-top: 24px; padding: 16px 24px; font-size: 1.15rem; font-weight: 700; border-radius: var(--radius);">
+                            Merge PDF &rarr;
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Loader Processing Spinner -->
+            <div class="loading-view" id="processing-view">
+                <div class="spinner"></div>
+                <h3 id="loader-headline">Merging your PDF files</h3>
+                <p>Please wait while we combine your PDF documents into a single file. Do not close this tab.</p>
+            </div>
+
+            <!-- Success Download Frame -->
+            <div class="success-view" id="download-frame">
+                <div class="success-icon">
+                    <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                </div>
+                <h3>Your PDFs have been merged successfully!</h3>
+                <p>Your merged PDF file is ready to download.</p>
+                <a href="#" class="btn btn-download" id="file-download-button" download>
+                    <span class="btn-download-icon">
+                        <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+                    </span>
+                    Download Merged PDF
+                </a>
+                
+                <div class="success-actions">
+                    <span class="success-action-link" onclick="resetActiveWorkspace()">Merge another document</span>
+                    <span class="success-action-link" onclick="window.location.href='/'">Back to Home page</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Corporate SEO Section -->
+        <section class="seo-content-section">
+            <h2 class="seo-title">Professional Online Merge PDF Tool</h2>
+            <p class="seo-intro">Combine multiple PDF documents in the order you want with the easiest PDF merger available on the web. Process files locally in seconds.</p>
+
+            <div class="seo-grid">
+                <div class="seo-card">
+                    <h3 class="seo-card-title">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                        Drag & Drop Reordering
+                    </h3>
+                    <p class="seo-card-desc">Easily rearrange your uploaded PDF documents in the exact sequence you want before merging.</p>
+                </div>
+                <div class="seo-card">
+                    <h3 class="seo-card-title">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                        100% Free & Unlimited
+                    </h3>
+                    <p class="seo-card-desc">Combine files without any subscription or annoying page restrictions. Quick and free.</p>
+                </div>
+                <div class="seo-card">
+                    <h3 class="seo-card-title">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                        Guaranteed Security
+                    </h3>
+                    <p class="seo-card-desc">All uploaded documents are processed over secure SSL connections and deleted from our servers within 15 minutes.</p>
+                </div>
+            </div>
+
+            <div class="seo-steps-section">
+                <h3 class="seo-steps-title">How to use our free Merge PDF online tool</h3>
+                <div class="seo-steps-list">
+                    <div class="seo-step-item">
+                        <div class="seo-step-num">1</div>
+                        <div class="seo-step-text">
+                            <h4>Step 1</h4>
+                            <p>Select and upload multiple PDF files from your computer or mobile device.</p>
+                        </div>
+                    </div>
+                    <div class="seo-step-item">
+                        <div class="seo-step-num">2</div>
+                        <div class="seo-step-text">
+                            <h4>Step 2</h4>
+                            <p>Rearrange the order of your files using drag and drop or sorting controls.</p>
+                        </div>
+                    </div>
+                    <div class="seo-step-item">
+                        <div class="seo-step-num">3</div>
+                        <div class="seo-step-text">
+                            <h4>Step 3</h4>
+                            <p>Click the 'Merge PDF' button to combine documents.</p>
+                        </div>
+                    </div>
+                    <div class="seo-step-item">
+                        <div class="seo-step-num">4</div>
+                        <div class="seo-step-text">
+                            <h4>Step 4</h4>
+                            <p>Download your merged PDF file instantly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Area -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    </svg>
+                    <div class="logo-text">i<span>loves</span>pdfs</div>
+                </div>
+                <p>i loves pdfs is your companion web application for merging, splitting, compressing, converting, and organizing PDFs. 100% free, forever.</p>
+            </div>
+            
+            <div class="footer-links-grid">
+                <div class="footer-links-col">
+                    <div class="footer-col-title">PDF Tools</div>
+                    <a href="/merge_pdf">Merge PDF</a>
+                    <a href="/split_pdf">Split PDF</a>
+                    <a href="/compress_pdf">Compress PDF</a>
+                    <a href="/remove-pages">Delete Pages</a>
+                </div>
+                <div class="footer-links-col">
+                    <div class="footer-col-title">Converters</div>
+                    <a href="/word_to_pdf">Word to PDF</a>
+                    <a href="/pdf_to_word">PDF to Word</a>
+                    <a href="/jpg_to_pdf">JPG to PDF</a>
+                    <a href="/pdf_to_jpg">PDF to JPG</a>
+                    <a href="/html-to-pdf">HTML to PDF</a>
+                </div>
+                <div class="footer-links-col">
+                    <div class="footer-col-title">Security & More</div>
+                    <a href="/protect-pdf">Protect PDF</a>
+                    <a href="/unlock_pdf">Unlock PDF</a>
+                    <a href="/pdf_add_watermark">Watermark</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div>&copy; 2026 i loves pdfs. All rights reserved.</div>
+            <div class="footer-bottom-links">
+                <a href="/privacy-policy">Privacy Policy</a>
+                <a href="/terms">Terms of Use</a>
+                <a href="/about">About Us</a>
+                <a href="/contact">Contact Us</a>
+                <a href="/cookie-policy">Cookie Policy</a>
+                <a href="/disclaimer">Disclaimer</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.worker.min.js';
+
+        let selectedFiles = [];
+        const apiEndpoint = '/api/merge';
+        const fileMetadataMap = new Map(); // stores page counts & rendered canvas thumbnails
+
+        const dropzone = document.getElementById('file-dropzone');
+        const fileSelector = document.getElementById('file-selector');
+        const activeWorkspace = document.getElementById('active-workspace');
+
+        function resetActiveWorkspace() {
+            selectedFiles = [];
+            fileMetadataMap.clear();
+            updateWorkspace();
+            hideError();
+            document.getElementById('tool-config-section').style.display = 'flex';
+            document.getElementById('processing-view').style.display = 'none';
+            document.getElementById('download-frame').style.display = 'none';
+        }
+
+        // Add file click & append listener
+        fileSelector.addEventListener('change', (e) => {
+            addSelectedFiles(e.target.files);
+            fileSelector.value = ''; // Reset input to allow selecting same file twice if needed
+        });
+
+        document.getElementById('btn-add-more').addEventListener('click', () => {
+            fileSelector.click();
+        });
+
+        // Drag and drop setup for dropzone
+        ['dragenter', 'dragover'].forEach(evt => {
+            dropzone.addEventListener(evt, (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                dropzone.classList.add('dragover');
+            });
+        });
+
+        ['dragleave', 'drop'].forEach(evt => {
+            dropzone.addEventListener(evt, (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                dropzone.classList.remove('dragover');
+            });
+        });
+
+        dropzone.addEventListener('drop', (e) => {
+            addSelectedFiles(e.dataTransfer.files);
+        });
+
+        function addSelectedFiles(fileList) {
+            hideError();
+            if (!fileList || fileList.length === 0) return;
+
+            for (let i = 0; i < fileList.length; i++) {
+                const file = fileList[i];
+                if (!file.name.toLowerCase().endsWith('.pdf')) {
+                    showError(`"${file.name}" is not a valid PDF file.`);
+                    continue;
+                }
+                // Avoid duplicates by file signature
+                const signature = file.name + '_' + file.size;
+                if (!selectedFiles.some(f => (f.name + '_' + f.size) === signature)) {
+                    selectedFiles.push(file);
+                }
+            }
+            updateWorkspace();
+        }
+
+        function removeFile(index) {
+            selectedFiles.splice(index, 1);
+            updateWorkspace();
+        }
+
+        function moveFile(index, direction) {
+            if (direction === 'up' && index > 0) {
+                const temp = selectedFiles[index];
+                selectedFiles[index] = selectedFiles[index - 1];
+                selectedFiles[index - 1] = temp;
+            } else if (direction === 'down' && index < selectedFiles.length - 1) {
+                const temp = selectedFiles[index];
+                selectedFiles[index] = selectedFiles[index + 1];
+                selectedFiles[index + 1] = temp;
+            }
+            updateWorkspace();
+        }
+
+        // Sorting controls
+        document.getElementById('btn-sort-az').addEventListener('click', () => {
+            selectedFiles.sort((a, b) => a.name.localeCompare(b.name));
+            updateWorkspace();
+        });
+
+        document.getElementById('btn-sort-za').addEventListener('click', () => {
+            selectedFiles.sort((a, b) => b.name.localeCompare(a.name));
+            updateWorkspace();
+        });
+
+        document.getElementById('btn-reverse').addEventListener('click', () => {
+            selectedFiles.reverse();
+            updateWorkspace();
+        });
+
+        document.getElementById('btn-clear-all').addEventListener('click', () => {
+            resetActiveWorkspace();
+        });
+
+        function formatBytes(bytes, decimals = 2) {
+            if (bytes === 0) return '0 Bytes';
+            const k = 1024;
+            const dm = decimals < 0 ? 0 : decimals;
+            const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+        }
+
+        function updateWorkspace() {
+            const countBadge = document.getElementById('files-count-badge');
+            const pagesBadge = document.getElementById('pages-count-badge');
+            const gridContainer = document.getElementById('pages-grid');
+
+            if (selectedFiles.length === 0) {
+                dropzone.classList.remove('hidden');
+                activeWorkspace.classList.add('hidden');
+                countBadge.innerText = '0';
+                pagesBadge.innerText = '0 total pages';
+                gridContainer.innerHTML = '';
+                return;
+            }
+
+            dropzone.classList.add('hidden');
+            activeWorkspace.classList.remove('hidden');
+            countBadge.innerText = selectedFiles.length;
+
+            gridContainer.innerHTML = '';
+
+            let totalPagesSum = 0;
+
+            selectedFiles.forEach((file, idx) => {
+                const signature = file.name + '_' + file.size;
+                
+                const card = document.createElement('div');
+                card.className = 'page-thumbnail-card';
+                card.draggable = true;
+                card.dataset.index = idx;
+
+                const pageBadge = document.createElement('div');
+                pageBadge.className = 'card-page-count';
+                pageBadge.innerText = fileMetadataMap.has(signature) ? `${fileMetadataMap.get(signature).pageCount} pgs` : 'PDF';
+                card.appendChild(pageBadge);
+
+                if (fileMetadataMap.has(signature)) {
+                    totalPagesSum += fileMetadataMap.get(signature).pageCount;
+                }
+
+                const canvas = document.createElement('canvas');
+                card.appendChild(canvas);
+
+                const label = document.createElement('div');
+                label.style.fontWeight = '600';
+                label.style.fontSize = '0.85rem';
+                label.style.marginTop = '10px';
+                label.style.wordBreak = 'break-all';
+                label.style.textAlign = 'center';
+                label.innerText = file.name;
+                card.appendChild(label);
+
+                const sizeLabel = document.createElement('div');
+                sizeLabel.style.fontSize = '0.75rem';
+                sizeLabel.style.color = 'var(--text-muted)';
+                sizeLabel.innerText = formatBytes(file.size);
+                card.appendChild(sizeLabel);
+
+                // Controls
+                const controls = document.createElement('div');
+                controls.className = 'thumbnail-actions';
+                controls.innerHTML = `
+                    <button class="action-btn-small" onclick="event.stopPropagation(); moveFile(${idx}, 'up')" title="Move Left" ${idx === 0 ? 'disabled style="opacity: 0.3;"' : ''}>
+                        &larr;
+                    </button>
+                    <button class="action-btn-small" onclick="event.stopPropagation(); moveFile(${idx}, 'down')" title="Move Right" ${idx === selectedFiles.length - 1 ? 'disabled style="opacity: 0.3;"' : ''}>
+                        &rarr;
+                    </button>
+                    <button class="action-btn-small delete" onclick="event.stopPropagation(); removeFile(${idx})" title="Remove PDF">
+                        &times;
+                    </button>
+                `;
+                card.appendChild(controls);
+
+                // Drag and drop events for cards
+                card.addEventListener('dragstart', (e) => {
+                    e.dataTransfer.setData('text/plain', idx);
+                    card.classList.add('dragging');
+                });
+
+                card.addEventListener('dragend', () => {
+                    card.classList.remove('dragging');
+                    document.querySelectorAll('.page-thumbnail-card').forEach(c => c.classList.remove('drag-over'));
+                });
+
+                card.addEventListener('dragover', (e) => {
+                    e.preventDefault();
+                    card.classList.add('drag-over');
+                });
+
+                card.addEventListener('dragleave', () => {
+                    card.classList.remove('drag-over');
+                });
+
+                card.addEventListener('drop', (e) => {
+                    e.preventDefault();
+                    card.classList.remove('drag-over');
+                    const fromIdx = parseInt(e.dataTransfer.getData('text/plain'));
+                    const toIdx = idx;
+                    if (!isNaN(fromIdx) && fromIdx !== toIdx) {
+                        const temp = selectedFiles[fromIdx];
+                        selectedFiles.splice(fromIdx, 1);
+                        selectedFiles.splice(toIdx, 0, temp);
+                        updateWorkspace();
+                    }
+                });
+
+                gridContainer.appendChild(card);
+
+                // Render PDF page 1 thumbnail & count pages using PDF.js
+                if (fileMetadataMap.has(signature)) {
+                    const cachedCanvas = fileMetadataMap.get(signature).canvas;
+                    canvas.width = cachedCanvas.width;
+                    canvas.height = cachedCanvas.height;
+                    canvas.getContext('2d').drawImage(cachedCanvas, 0, 0);
+                } else {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        const typedarray = new Uint8Array(e.target.result);
+                        pdfjsLib.getDocument(typedarray).promise.then(pdf => {
+                            const numPages = pdf.numPages;
+                            pdf.getPage(1).then(page => {
+                                const viewport = page.getViewport({ scale: 0.35 });
+                                const context = canvas.getContext('2d');
+                                canvas.height = viewport.height;
+                                canvas.width = viewport.width;
+
+                                page.render({ canvasContext: context, viewport: viewport }).promise.then(() => {
+                                    const offscreenCanvas = document.createElement('canvas');
+                                    offscreenCanvas.width = canvas.width;
+                                    offscreenCanvas.height = canvas.height;
+                                    offscreenCanvas.getContext('2d').drawImage(canvas, 0, 0);
+
+                                    fileMetadataMap.set(signature, {
+                                        pageCount: numPages,
+                                        canvas: offscreenCanvas
+                                    });
+                                    pageBadge.innerText = `${numPages} pgs`;
+                                    
+                                    // Update total pages badge count
+                                    let sum = 0;
+                                    selectedFiles.forEach(f => {
+                                        const sig = f.name + '_' + f.size;
+                                        if (fileMetadataMap.has(sig)) sum += fileMetadataMap.get(sig).pageCount;
+                                    });
+                                    pagesBadge.innerText = `~${sum} total pages`;
+                                });
+                            });
+                        }).catch(err => {
+                            console.warn("Failed to render PDF preview", err);
+                        });
+                    };
+                    reader.readAsArrayBuffer(file);
+                }
+            });
+
+            if (totalPagesSum > 0) {
+                pagesBadge.innerText = `~${totalPagesSum} total pages`;
+            }
+        }
+
+        // Process Merge Request
+        document.getElementById('process-run-btn').addEventListener('click', () => {
+            if (selectedFiles.length < 2) {
+                showError("Merge PDF requires at least 2 PDF files. Click 'Add more PDFs' to attach additional files.");
+                return;
+            }
+
+            const formData = new FormData();
+            selectedFiles.forEach(file => formData.append('files', file));
+
+            document.getElementById('tool-config-section').style.display = 'none';
+            document.getElementById('processing-view').style.display = 'flex';
+
+            fetch(apiEndpoint, {
+                method: 'POST',
+                body: formData
+            })
+            .then(async response => {
+                if (!response.ok) {
+                    const data = await response.json();
+                    throw new Error(data.error || 'Server processing error occurred.');
+                }
+                return response.json();
+            })
+            .then(data => {
+                document.getElementById('processing-view').style.display = 'none';
+                document.getElementById('download-frame').style.display = 'flex';
+                const dlButton = document.getElementById('file-download-button');
+                dlButton.href = data.download_url;
+                setTimeout(() => dlButton.click(), 300);
+            })
+            .catch(error => {
+                document.getElementById('processing-view').style.display = 'none';
+                document.getElementById('tool-config-section').style.display = 'flex';
+                showError(error.message);
+            });
+        });
+
+        function showError(msg) {
+            const errBox = document.getElementById('error-view');
+            document.getElementById('error-message').innerText = msg;
+            errBox.style.display = 'flex';
+            window.scrollTo({ top: errBox.offsetTop - 100, behavior: 'smooth' });
+        }
+
+        function hideError() {
+            document.getElementById('error-view').style.display = 'none';
+        }
+
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('mobile-menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+        menuToggle.addEventListener('click', () => navLinks.classList.toggle('active'));
+
+        document.querySelectorAll('.dropdown').forEach(dropdown => {
+            dropdown.addEventListener('click', (e) => {
+                if (window.innerWidth <= 900) {
+                    e.stopPropagation();
+                    dropdown.classList.toggle('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
